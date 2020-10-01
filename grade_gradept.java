@@ -12,7 +12,7 @@ public class grade_gradept {
         int a[]=new int[5];
         Scanner obj= new Scanner(System.in);
         for(int i=0;i<5;i++){
-         System.out.println("enter marks of sunject"+(i+1));
+         System.out.println("Enter marks of subject"+(i+1));
          a[i]=obj.nextInt();
          total=total+a[i];
         }
